@@ -12,10 +12,10 @@ print(sys.executable)
 #     return path
 
 
-# def test_data(temp_path):
-#     test = "Test"
-#     print(temp_path.joinpath("test.csv"))
-#     assert 1 == 1
+def test_data(temp_path):
+    test = "Test"
+    print(temp_path.joinpath("test.csv"))
+    assert 1 == 1
 
 
 r = requests.get("https://www.google.com")
